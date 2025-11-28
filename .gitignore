@@ -1,0 +1,31 @@
+# MATLAB temporary files
+*.asv
+*.m~
+
+# MATLAB autosave files
+*.autosave
+
+# MATLAB compiled files
+*.mex*
+*.p
+
+# MATLAB data files (optional, comment out if you want to track them)
+# *.mat
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+*.swp
+*~
+
+# Build artifacts
+build/
+dist/
