@@ -1,6 +1,6 @@
 %逆滤波和维纳滤波
 %% 读取并显示原始图像
-I = imread('C:\Users\小仓\Desktop\Lena.jpg');
+I = imread('D:\素材\每日照片\IMG_0415 拷贝 2.jpg');
 if size(I, 3) == 3
     I = rgb2gray(I);
 end

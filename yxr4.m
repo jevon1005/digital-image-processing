@@ -1,10 +1,10 @@
 %仅有噪声的复原-空间滤波
-clear all;
+%clear all;
 close all;
 clc;
 
 %% 1. 读取图像并添加噪声
-I = imread('C:\Users\小仓\Desktop\Lena.jpg');
+I = imread('D:\素材\每日照片\IMG_0415 拷贝 2.jpg');
 I_gray = rgb2gray(I);
 [M, N] = size(I_gray);
 

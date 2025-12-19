@@ -4,7 +4,7 @@ close all;
 clc;
 
 %% 1. 读取图像
-I = imread('C:\Users\小仓\Desktop\Lena.jpg');
+I = imread("D:\素材\每日照片\IMG_0415 拷贝 2.jpg");
 I_gray = rgb2gray(I);
 
 %% 2. 图像退化模型实现
