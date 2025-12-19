@@ -4,7 +4,7 @@ clc;
 
 %% 1. 读取图像
 % 如果是彩色图像
-rgb_image = imread('1.png');  % 示例图像
+rgb_image = imread('');  % 示例图像
 if size(rgb_image, 3) == 1
     rgb_image = cat(3, rgb_image, rgb_image, rgb_image);  % 转换为RGB
 end
